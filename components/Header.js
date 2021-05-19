@@ -5,7 +5,9 @@ const Container = styled.div`
 `;
 
 export default function Header() {
+    return (
     <Container>
         <h1>Hello World!</h1>
     </Container>
+    )
 }
